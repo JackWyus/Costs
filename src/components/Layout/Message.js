@@ -6,6 +6,8 @@ export const Container = styled.div`
   margin: 0 auto;
   margin-bottom: 2rem;
   text-align: center;
+
+  font-size: 1.6rem;
   border: 1px solid #000;
   border-radius: 5px;
 

@@ -5,7 +5,7 @@
   margin: 0.5%;
 
   border-radius: var(--button-bordeRadius);
-  background: linear-gradient(to left, rgba(3, 54, 135, 0.763), transparent);
+  background: linear-gradient(to left, rgba(22, 22, 22, 0.879), rgb(22, 22, 22));
 }
 
 .project_card h4 {
@@ -71,20 +71,24 @@
   padding: 0.6em 1em;
   margin-right: 1em;
   
+  transition: all 0.3s;
   border: 1px solid #222;
   cursor: pointer;
   text-decoration: none;
-  background-color: #fff;
+  background-color: rgb(208, 206, 206);
   color: #222;
   font-size: 1.4rem;
 }
 
 .project_card_actions svg {
+  transition: all 0.3s;
   margin-right: 0.5em;
 }
 
 .project_card_actions a:hover,
 .project_card_actions button:hover {
-  background-color: #222;
+  filter: brightness(12px);
+  filter: drop-shadow(0 0 0.75rem rgb(56, 3, 146, 50%));
+  background: rgb(148, 3, 129);
   color: #ffbb33;
 }

@@ -155,13 +155,13 @@ function Project()
                 {!showProjectForm ? (
                   <div className={styles.form}>
                     <p>
-                      <span>Categoria:</span> {project.category.name}
+                      <span>Categoria: </span> {project.category.name}
                     </p>
                     <p>
-                      <span>Total do orçamento:</span> R${project.budget}
+                      <span>Total do orçamento: </span> R${project.budget}
                     </p>
                     <p>
-                      <span>Total utilizado:</span> R${project.cost}
+                      <span>Total utilizado: </span> R${project.cost}
                     </p>
                   </div>
                 ) : (
@@ -171,14 +171,13 @@ function Project()
                         btnText="Salvar Edição"
                         projectData={project}
                       />
-                      form
                     </div>
                   )
                 }
               </div>
               
               <div className={styles.service_form_container}>
-                <h2>Adicione um serviço:</h2>
+              <h2 style={{ fontSize: '1.8rem' }}>Adicione um serviço:</h2>
                 <button className={styles.btn} onClick={toggleServiceForm}> {!showServiceForm ? 'Adicionar' : 'Fechar'}</button>
 
                 <div className={styles.form}>
@@ -192,7 +191,7 @@ function Project()
                 </div>
               </div>
 
-              <h2>Serviços:</h2>
+            <h2 style={{ fontSize: '1.8rem' }}>Serviços:</h2>
               <Container customClass="start">
                 {services.length > 0 &&
                   //Quando vamos retornar um objeto no map, precisamos colocar o () ao invés de chavês
@@ -207,7 +206,7 @@ function Project()
                     />
                   ))
                 }
-                {services.length === 0 && <p>Não há serviços cadastrados.</p>}
+                {services.length === 0 && <p style={{fontSize: '1.6rem'}}>Não há serviços cadastrados.</p>}
               </Container>
             </Container>
           </div>

@@ -1,14 +1,17 @@
 .btn{
+  padding: 1rem;
+  
+  font-size: 1.6rem;
+  border: none;
+  border-radius: var(--button-bordeRadius);
   text-decoration: none;
-  transition: 0.3s;
   cursor: pointer;
-  padding: 0.7rem 1.2rem;
   color: #fff;
   background-color: #222;
-  border: none;
 }
 
 .btn:hover{
-  color: #FFBB22;
-  filter: brightness(1.5);
+    filter: brightness(12px);
+    filter: drop-shadow(0 0 0.75rem rgb(56, 3, 146, 50%));
+    background: rgb(148, 3, 129);
 }

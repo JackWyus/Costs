@@ -1,12 +1,16 @@
 .newproject_container{
-  margin: 0 auto;
+  width: 100%;
   padding: 3rem;
-  background-color: blue;
+  margin: 0 auto;
+  /* background-color: blue; */
 }
 .newproject_container h1{
-  margin-bottom: 0.5rem;
+  color: var(--title-color);
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .newproject_container p{
-  color: #7b7b7b;
+  font-size: 1.6rem;
+  color: var(--text-color);
 }

@@ -31,9 +31,9 @@ function Newproject() {
 
   return (
     <div className={styles.newproject_container}>
-      <h1>Criar Projeto</h1>
-      <p>Crie seu projeto para depois adicionar os Serviços</p>
-      <ProjectForm handleSubmit={createPost} btnText='Criar Projeto'/>
+        <h1>Criar Projeto</h1>
+        <p>Crie seu projeto para depois adicionar os Serviços</p>
+        <ProjectForm handleSubmit={createPost} btnText='Criar Projeto'/>
     </div>
   )
 }

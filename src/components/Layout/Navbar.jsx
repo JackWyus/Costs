@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <Nav>
       <Container>
-          <Link to="/">
+          <Link to="/Costs">
             <img src={Logo} alt='CostsLogo' />
           </Link>
           <ul className="list">

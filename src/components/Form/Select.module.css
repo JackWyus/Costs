@@ -6,15 +6,20 @@
 
 .form_control label{
   margin-bottom:  0.6rem;
+
   color: var(--text-color);
-  font-weight: bold;
+  font-size: 1.6rem;
 }
+
 
 .form_control select{
   cursor: pointer;
   border: none;
-  padding: 0.7rem;
-  border: none;
+  padding: 1.5rem;
+  color: white;
+  font-size: 1.6;
+  background-color: #010101;
+
 }
 .form_control select:focus{
   outline: none;

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 export const Btn = styled(Link)`
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   text-decoration: none;
   border-radius: var(--button-borde);
   filter: brightness(1.2);

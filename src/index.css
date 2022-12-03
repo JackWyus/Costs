@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.3s;
   overflow: hidden;
 }
 

@@ -7,6 +7,7 @@ export const Nav = styled.nav`
   padding: 1em;
 
   .list{
+    font-size: 1.6rem;
     display: flex;
     list-style: none;
     align-items: center;

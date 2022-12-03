@@ -1,5 +1,4 @@
 import styles from '../project/ProjectCard.module.css'
-
 import { BsFillTrashFill } from 'react-icons/bs'
 
 function ServiceCard({ id, name, cost, description, handleRemove }) {

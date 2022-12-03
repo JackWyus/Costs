@@ -4,19 +4,26 @@
   margin-bottom: 1rem;
 }
 .form_control label{
-  margin-bottom:  0.6rem;
+  margin-bottom:  1rem;
 
   color: var(--text-color);
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .form_control input{
-  padding: 1rem;
+  padding: 1.5rem;
+
+  font-size: 1.6rem;
+  color: var(--text-color);
   border: none;
   border-radius: 0.5rem;
+  background-color: #010101;
 }
 .form_control input::placeholder{
-  color: #7b7b7b;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #ffffff;
 }
 .form_control input:focus{
   outline: none;
