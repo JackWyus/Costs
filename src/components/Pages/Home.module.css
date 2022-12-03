@@ -1,0 +1,34 @@
+.home_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /*alinhar os itens na vertical */
+  justify-content: center;  /*alinhar os itens na horizontal */
+  padding: 4rem;
+}
+
+.home_container h1{
+  margin-bottom: 0.5rem;
+
+  font-size: 4rem;
+  color: var(--title-color);
+}
+
+.home_container h1 span{
+  padding: 0 0.2rem;
+  border-radius: 0.5rem;
+
+  color: #ffbb33;
+  background-color: rgb(34, 34, 34);
+}
+
+.home_container p{
+  margin-block: 2rem;
+  font-size: 1.6rem;
+  color: #fffbfb;
+}
+
+.home_container img{
+  width: 35rem;
+  margin: 2rem 0;
+}

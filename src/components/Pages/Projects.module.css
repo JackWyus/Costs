@@ -1,0 +1,13 @@
+.project_container{
+  padding-top: 2rem;
+}
+
+.title_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  font-size: 1.8rem;
+  color: var(--title-color);
+}

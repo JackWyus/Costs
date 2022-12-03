@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+:root{
+  font-size: 62.5%;
+  --title-color: #fff;
+  --text-color: rgb(217, 217, 217);
+  --button-bordeRadius: 0.3rem;
+  --background-color: linear-gradient(to right, rgb(56, 3, 146), rgb(12, 7, 22), rgb(148, 3, 129));
+}
+
+html,body, #root{
+  height: 100%; /* Ele vai deixar o rodapé colocado no fim da página */
+}
+
+body{
+  filter: brightness(1px);
+  background: var(--background-color);
+}

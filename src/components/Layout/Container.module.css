@@ -1,0 +1,21 @@
+.container{
+  width: 100rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+  flex-wrap: wrap; /* Quando os filhos ultrapassarem a linha de 100% do width da tela, eles vão para baixo da linha */
+}
+
+.start{
+  justify-content: flex-start;
+}
+
+.column{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.min-height{
+  min-height: 78%;
+}
