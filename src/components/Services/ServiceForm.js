@@ -46,4 +46,4 @@ function ServiceForm({ handleSubmit, btnText, projectData }) {
   )
 }
 
-export default ServiceForm
+export default ServiceForm;
